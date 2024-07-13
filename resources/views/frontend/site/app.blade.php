@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html>
 <head>
 <meta charset="utf-8">
-<title>Meto HTML-5 Template | Homepage Three</title>
+<title>e</title>
     @include('frontend.site.partials.styles')
     <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 
-<body class="hidden-bar-wrapper">
+<body class="hidden-bar-wrapper rtl" >
 
 <div class="page-wrapper">
  	
@@ -28,7 +28,7 @@
 
 <!-- Color Palate / Color Switcher -->
 
-<div class="color-palate">
+{{-- <div class="color-palate">
     <div class="color-trigger">
         <i class="fa fa-gear"></i>
     </div>
@@ -44,7 +44,7 @@
         <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
     </div>
 
-</div>
+</div> --}}
 
 <!-- Search Popup -->
 <div class="search-popup">

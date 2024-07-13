@@ -14,9 +14,9 @@
                             <div class="footer-column col-lg-7 col-md-6 col-sm-12">
                                 <div class="footer-widget logo-widget">
 									<div class="logo">
-										<a href="index.html"><img src="images/logo.png" alt="" /></a>
+										<a href="index.html"><img src="{{ asset('assets/images/logo.png') }}" alt="" /></a>
 									</div>
-									<div class="text">Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors in play.</div>
+                                    <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 									<!-- Social Box -->
 									<ul class="social-box">
 										<li><a href="#" class="fa fa-facebook-f"></a></li>
@@ -30,13 +30,12 @@
 							<!-- Footer Column -->
                             <div class="footer-column col-lg-5 col-md-6 col-sm-12">
                                 <div class="footer-widget links-widget">
-									<h4>Useful Links</h4>
+									<h4>الروابط</h4>
 									<ul class="list-link">
-										<li><a href="#">About us</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Projects</a></li>
-										<li><a href="#">Our Team</a></li>
-										<li><a href="#">Contact Us</a></li>
+										<li><a href="#">حول</a></li>
+										<li><a href="#">الخدمات</a></li>
+										<li><a href="#">المشاريع</a></li>
+										<li><a href="#">اتصل بنا</a></li>
 									</ul>
 								</div>
 							</div>
@@ -51,13 +50,13 @@
 							<!-- Footer Column -->
                             <div class="footer-column col-lg-5 col-md-6 col-sm-12">
                                 <div class="footer-widget links-widget">
-									<h4>Our Service</h4>
+									<h4>الخدمات</h4>
 									<ul class="list-link">
-										<li><a href="#">SEO Optimization</a></li>
-										<li><a href="#">Content Marketing</a></li>
-										<li><a href="#">Enterprise SEO</a></li>
-										<li><a href="#">National SEO</a></li>
-										<li><a href="#">International SEO</a></li>
+										<li><a href="#">تصميم المواقع والتطبيقات</a></li>
+										<li><a href="#">إدارة حسابات التواصل الاجتماعي</a></li>
+										<li><a href="#">إدارة العلامة التجارية</a></li>
+										<li><a href="#">التسويق عبر المؤثرين</a></li>
+										<li><a href="#">التعليق الصوتي</a></li>
 									</ul>
 								</div>
 							</div>
@@ -65,8 +64,10 @@
 							<!-- Footer Column -->
                             <div class="footer-column col-lg-7 col-md-6 col-sm-12">
                                 <div class="footer-widget subscribe-widget">
-									<h4>Subscribe Now</h4>
-									<div class="text">Grow Your Business with Our SEO Agency Don’t miss our future updates! Get Subscribed now!</div>
+									<h4>تواصل معنا واكتشف كيف يمكننا مساعدتك!
+
+                                    </h4>
+									<div class="text">ابدأ رحلتك نحو التميز اليوم. تواصل معنا لمناقشة احتياجاتك واكتشاف كيف يمكننا مساعدتك في تحقيق نجاحك الرقمي وتحقيق أهدافك الأعمال.</div>
 									<div class="newsletter-form">
 										<form method="post" action="contact.html">
 											<div class="form-group">
@@ -86,7 +87,7 @@
 			
 			<!-- Footer Bottom -->
 			<div class="footer-bottom">
-				<div class="copyright">Copyright © 2023 Meto by <a href="#">Expert-Themes.</a> All Rights Reserved.</div>
+				<div class="copyright">Copyright © 2024  by <a href="esolutions-tech.com"> esolutions-tech.com</a> جميع الحقوق</div>
 			</div>
 			
 		</div>
