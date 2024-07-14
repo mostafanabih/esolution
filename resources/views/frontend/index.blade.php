@@ -28,8 +28,8 @@
                                     <br> </h1>
                                 <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 								<div class="btns-box">
-									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Start Now</span></a>
-									<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
+									{{-- <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a> --}}
 								</div>
 							</div>
 						</div>
