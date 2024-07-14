@@ -1,120 +1,339 @@
 @extends('frontend.site.app')
 
 @section('content')
-   <!-- Start inner Page hero-->
-   <section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
-      <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
-      <div class="overlay-color" data-bg-opacity=".75"></div>
-      <div class="container">
-        <div class="hero-text-area centerd">
-          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">المشاريع</h1>
-          <nav aria-label="breadcrumb ">
-            <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
-              <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>الرئيسيه</a></li>
-              <li class="breadcrumb-item active">المشاريع</li>
-            </ul>
-          </nav>
+   	
+	<!--Page Title-->
+  <section class="page-title">
+		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-14.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-15.png)"></div>
+    	<div class="auto-container">
+			<h2>Our Gallery</h2>
+			<ul class="page-breadcrumb">
+				<li><a href="index.html">home</a></li>
+				<li>Gallery</li>
+			</ul>
         </div>
-      </div>
     </section>
-    <!-- End inner Page hero-->
-    <!-- Start  portfolio Section-->
-    <section class="portfolio mega-section   " id="portfolio">
-      <div class="container">
-        <div class="sec-heading  ">
-          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">المشاريع</span>
-            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">معرض <span class='hollow-text'>الأعمال</span></h2>
-          </div>
-        </div>
-        <div class="portfolio-wrapper  ">
-          <!--a menu of links to show the photos users needs   -->
-          <ul class="portfolio-btn-list wow fadeInUp" data-wow-delay=".2s">
-            <li class="portfolio-btn active " data-filter="*">الكل</li>
-            <li class="portfolio-btn        " data-filter=".mobile">مواقع الكترونيه</li>
-            <li class="portfolio-btn        " data-filter=".web">  حملات اعلانيه</li>
-            <li class="portfolio-btn        " data-filter=".data"> اداره حسابات</li>
-          </ul>
-          <div class="portfolio-group wow fadeIn" data-wow-delay=".4s">
-            <div class="row ">
-            @foreach($web_projects as $project)
-              <div class="col-12  col-md-6  col-lg-4  portfolio-item mobile ">
-                <div class="item   "><a class="portfolio-img-link" href="{{route('show_project',$project->id)}}"><img class="portfolio-img   img-fluid " loading="lazy" src="{{ asset('storage/' . $project->images[0]) }}" alt="portfolio item photo"></a>
-                  <div class="item-info ">
-                    <h3 class="item-title">{{$project->type}}</h3><i class="bi bi-arrow-left icon "></i>
-                  </div>
-                </div>
-              </div>
-              @endforeach
-              @foreach($social_projects as $project)
-              <div class="col-12  col-md-6  col-lg-4  portfolio-item web  ">
-                <div class="item   "><a class="portfolio-img-link" href="{{route('show_project',$project->id)}}"><img class="portfolio-img   img-fluid " loading="lazy" src="{{ asset('storage/' . $project->images[0]) }}" alt="portfolio item photo"></a>
-                  <div class="item-info ">
-                    <h3 class="item-title">{{$project->type}}</h3><i class="bi bi-arrow-left icon "></i>
-                  </div>
-                </div>
-              </div>
-              @endforeach
-              @foreach($account_projects as $project)
-              <div class="col-12  col-md-6  col-lg-4  portfolio-item data ">
-                <div class="item   "><a class="portfolio-img-link" href="{{route('show_project',$project->id)}}"><img class="portfolio-img   img-fluid " loading="lazy" src="{{ asset('storage/' . $project->images[0]) }}" alt="portfolio item photo"></a>
-                  <div class="item-info ">
-                    <h3 class="item-title">{{$project->type}}</h3><i class="bi bi-arrow-left icon "></i>
-                  </div>
-                </div>
-              </div>
-              @endforeach
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End  portfolio Section-->
-    
-    <!-- Start  our-clients Section-->
-    <section class="our-clients  bg-main elf-section" id="our-clients">
-      <div class="container-fluid">
-        <div class="sec-heading d-none ">
-          <h4 class="title ">our great clients</h4>
-        </div>
-        <div class=" clients-logos ">
-          <!--Swiper-->
-          <div class="swiper-container">
-            <div class="swiper-wrapper clients-logo-wrapper wow fadeIn " data-wow-delay=".02s">
-              <!-- every client logo is located inside div  with clss name "swiper-slide ".
-              if you want to add more logos please keep the strcture of the swiper-slide as showen below
-              
-              
-              -->
-              @foreach($clients as $client)
-              <div class="swiper-slide">
-                <div class="client-logo  "><a href="#0"><img class="img-fluid logo " loading="lazy" src="{{$client->logo}}" alt=" "></a></div>
-              </div>
-              @endforeach
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End  our-clients Section-->
-    <!-- Start  take-action Section-->
-    <section class="take-action elf-section has-dark-bg" id="take-action">
-      <div class="overlay-photo-image-bg  " data-bg-img="assets/images/sections-bg-images/2.jpg" data-bg-opacity=".25"> </div>
-      <div class="cta-wrapper">
-        <div class="container">
-          <div class="sec-heading  centered mb-0 ">
-            <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">تواصل معنا</span>
-              <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">تواصل معنا</h2>
-              <p class="subtitle   wow fadeInUp " data-wow-delay=".6s">أرسل إلينا رسالتك وسنعاود الإتصال بك لتقديم الخدمة المناسبة
-
-               </p>
-            </div>
-          </div>
-          <!--Start .see-more-area-->
-          <div class=" see-more-area wow fadeInUp" data-wow-delay="0.8s"><a class=" btn-solid cta-link" href="contact-us.html">تواصل معنا</a></div>
-          <!--End Of .see-more-area        -->
-        </div>
-      </div>
-    </section>
-    <!-- End  take-action Section-->
-
+    <!--End Page Title-->
+	
+	<!-- Gallery Section -->
+    <section class="gallery-section gallery-page-section">
+    	<div class="outer-section">
+			<!-- MixitUp Galery -->
+			<div class="mixitup-gallery">
+				<div class="auto-container">
+					<div class="sec-title centered">
+						<div class="title">RECENT PROJECTS</div>
+						<h2>Our Latest Case Studies</h2>
+						<div class="text">If we had a ‘secret sauce’ it would be our awesome people. <br> We have only professional team!</div>
+					</div>
+					<!--Filter-->
+					<div class="filters clearfix">
+						<ul class="filter-tabs filter-btns clearfix">
+							<li class="active filter" data-role="button" data-filter="all">All</li>
+							<li class="filter" data-role="button" data-filter=".development">Development</li>
+							<li class="filter" data-role="button" data-filter=".marketing">Markeging</li>
+							<li class="filter" data-role="button" data-filter=".media">Media</li>
+							<li class="filter" data-role="button" data-filter=".optimization">Optimization</li>
+						</ul>
+								
+					</div>
+				</div>
+				
+				<div class="filter-list row clearfix">
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix optimization marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/1.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/1.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix development media col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/2.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/2.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix media marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/3.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/3.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix optimization development marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/4.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/4.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix optimization media col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/5.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/5.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix development marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/6.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/6.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix media marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/7.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/7.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix optimization marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/8.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/8.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix optimization media col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/9.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/9.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix development marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/10.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/10.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix media marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/11.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="{{asset('assets/projects-detail.html')}}">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/11.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+					<!-- Gallery Block -->
+					<div class="gallery-block all mix optimization marketing col-lg-3 col-md-4 col-sm-12">
+						<div class="inner-box">
+							<figure class="image-box">
+								<img src="{{asset('assets/images/gallery/12.jpg')}}" alt="">
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="content">
+											<h4><a href="projects-detail.html">Analysis of <br> Security</a></h4>
+											<div class="category">Marketing / Optmization</div>
+											<a href="projects-detail.html" class="link"><span class="icon fa fa-link"></span></a>
+											<a href="{{asset('assets/images/gallery/12.jpg')}}" data-fancybox="gallery-1" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+										</div>
+									</div>
+								</div>
+							</figure>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="btn-box text-center">
+				<a href="projects.html" class="theme-btn btn-style-five"><span class="txt">View All Work</span></a>
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Gallery Section -->
+	
+	<!-- Call To Action Section -->
+	<section class="call-to-action-section" style="background-image: url(images/background/map-pattern.png)">
+		<div class="dotted-layer" style="background-image: url(images/background/pattern-11.png)"></div>
+		
+		<div class="icon-layer" style="background-image: url(images/icons/cross-icon.png)"></div>
+		<div class="icon-layer-two" style="background-image: url(images/icons/icon-1.png)"></div>
+		<div class="icon-layer-three" style="background-image: url(images/icons/icon-2.png)"></div>
+		<div class="icon-layer-four" style="background-image: url(images/icons/icon-1.png)"></div>
+		
+		<div class="auto-container">
+			<div class="title">MORE WITH US</div>
+			<h2>You Want to Showcase Your Busniess <br> in Top Join With Us</h2>
+			<a href="about.html" class="theme-btn btn-style-three"><span class="txt">Join Us</span></a>
+		</div>
+	</section>
+	<!-- End Call To Action Section -->
+	
+	<!-- Contact Info Section -->
+	<section class="contact-info-section margin-bottom">
+		<div class="auto-container">
+			<div class="inner-container">
+				<ul class="list">
+					<li>
+						<span class="icon flaticon-placeholder-4"></span>
+						<strong>FL 33401, USA</strong>
+						576d University St, Seattle, UK
+					</li>
+					<li>
+						<span class="icon flaticon-phone-call"></span>
+						<strong>009-215-5596</strong>
+						Give us a call
+					</li>
+					<li>
+						<span class="icon flaticon-message-1"></span>
+						<strong>meto@mail.com</strong>
+						Get in Touch
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Info Section -->
     @endsection

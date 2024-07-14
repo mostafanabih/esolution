@@ -8,6 +8,7 @@
 <script src="{{asset('assets/js/tilt.jquery.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery.paroller.min.js')}}"></script>
 <script src="{{asset('assets/js/owl.js')}}"></script>
+<script src="{{asset('assets/js/validate.js')}}"></script>
 <script src="{{asset('assets/js/mixitup.js')}}"></script>
 <script src="{{asset('assets/js/wow.js')}}"></script>
 <script src="{{asset('assets/js/nav-tool.js')}}"></script>

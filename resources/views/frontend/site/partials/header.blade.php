@@ -55,23 +55,23 @@
                 
                 <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                   <ul class="navigation clearfix">
-                    <li class="current "><a href="#">الصفحة الرئيسية</a>
+                    <li class="dropdown @if (Route::currentRouteName() == 'index') current @endif"><a href="{{route('index')}}">الصفحة الرئيسية</a>
                    
                     </li>
-                    <li class="dropdown"><a href="#">حول</a>
+                    <li class="dropdown @if (Route::currentRouteName() == 'about') current @endif"><a href="{{route('about')}}">حول</a>
                      
                     </li>
-                    <li class="dropdown"><a href="#">الخدمات</a>
+                    <li class="dropdown @if (Route::currentRouteName() == 'services') current @endif"><a href="{{route('services')}}">الخدمات</a>
                      
                     </li>
-                    <li class="dropdown"><a href="#">المشاريع</a>
+                    <li class="dropdown @if (Route::currentRouteName() == 'projects') current @endif"><a href="{{route('projects')}}">المشاريع</a>
                       
                     </li>
                   
-                    <li class="dropdown"><a href="#">المدونه</a>
+                    <li class="dropdown @if (Route::currentRouteName() == 'posts') current @endif"><a href="{{route('posts')}}">المدونه</a>
                      
                     </li>
-                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="{{route('contacts')}}">اتصل بنا</a></li>
                   </ul>
                 </div>
               </nav>
@@ -84,7 +84,7 @@
                 
                 <!-- Quote Btn -->
                 <div class="btn-box">
-                  <a href="contact.html" class="quote-btn btn-style-four"><span class="txt">اتصل بنا</span></a>
+                  <a href="{{route('contacts')}}" class="quote-btn btn-style-four"><span class="txt">اتصل بنا</span></a>
                 </div>
                 
               </div>

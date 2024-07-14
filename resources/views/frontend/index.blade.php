@@ -570,19 +570,20 @@
 				<!-- Pattern Layer -->
 				<div class="dotted-pattern" style="background-image:url({{ asset('assets/images/background/pattern-12.jpg')}})"></div>
 				<div class="news-carousel owl-carousel owl-theme">
-					
+				@foreach ($news->chunk(2) as $newsChunk)
+
 					<div class="slide">
-					
+					   @foreach ($newsChunk as $newsItem)
 						<!-- News Block Three -->
 						<div class="news-block-three">
 							<div class="inner-box">
 								<div class="image">
-									<a href="blog-single.html"><img src="{{ asset('assets/images/resource/news-7.jpg')}}" alt="" /></a>
+									<a href="blog-single.html"><img src="{{asset("storage/$newsItem->image")}}" alt="" /></a>
 								</div>
 								<div class="content-box">
-									<div class="category">ppc</div>
-									<h4><a href="blog-single.html">The security risks of change <br> package owners</a></h4>
-									<div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
+									<div class="category">{{$newsItem->type}}</div>
+									<h4><a href="blog-single.html">{{$newsItem->name}}</a></h4>
+									<div class="text">{{ $newsItem->description}}</div>
 									<div class="info-box">
 										<div class="clearfix">
 											<div class="pull-left">
@@ -590,9 +591,9 @@
 												<div class="author-box">
 													<div class="box-inner">
 														<div class="author-image">
-															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
+															<img src="{{asset("storage/$newsItem->image")}}" alt="" >
 														</div>
-														Villal Pando, <span>November 21, 2019</span>
+														{{$newsItem->user}}, <span>{{ $newsItem->created_at->format('d M Y') }}</span>
 													</div>
 												</div>
 											</div>
@@ -604,178 +605,12 @@
 								</div>
 							</div>
 						</div>
-						
-						<!-- News Block Three -->
-						<div class="news-block-three">
-							<div class="inner-box">
-								<div class="image">
-									<a href="blog-single.html"><img src="{{ asset('assets/images/resource/news-8.jpg')}}" alt="" /></a>
-								</div>
-								<div class="content-box">
-									<div class="category">SEO</div>
-									<h4><a href="blog-single.html">Protect Your Workplace From Cyber Attacks</a></h4>
-									<div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
-									<div class="info-box">
-										<div class="clearfix">
-											<div class="pull-left">
-												<!-- Author Box -->
-												<div class="author-box">
-													<div class="box-inner">
-														<div class="author-image">
-															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
-														</div>
-														Villal Pando, <span>November 21, 2019</span>
-													</div>
-												</div>
-											</div>
-											<div class="pull-right">
-												<a href="blog-single.html" class="share"><span class="fa fa-share-alt"></span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
+					   @endforeach	
 					</div>
+
+					@endforeach
 					
-					<div class="slide">
-					
-						<!-- News Block Three -->
-						<div class="news-block-three">
-							<div class="inner-box">
-								<div class="image">
-									<a href="blog-single.html"><img src="{{ asset('assets/images/resource/news-7.jpg')}}" alt="" /></a>
-								</div>
-								<div class="content-box">
-									<div class="category">ppc</div>
-									<h4><a href="blog-single.html">The security risks of change <br> package owners</a></h4>
-									<div class="text">نساعدك في بناء علاقات قوية مع عملائك من خلال أنظمة دعم وإدارة العملاء الفعالة.
-                                    </div>
-									<div class="info-box">
-										<div class="clearfix">
-											<div class="pull-left">
-												<!-- Author Box -->
-												<div class="author-box">
-													<div class="box-inner">
-														<div class="author-image">
-															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
-														</div>
-														Villal Pando, <span>November 21, 2019</span>
-													</div>
-												</div>
-											</div>
-											<div class="pull-right">
-												<a href="blog-single.html" class="share"><span class="fa fa-share-alt"></span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- News Block Three -->
-						<div class="news-block-three">
-							<div class="inner-box">
-								<div class="image">
-									<a href="blog-single.html"><img src="{{ asset('assets/images/resource/news-8.jpg')}}" alt="" /></a>
-								</div>
-								<div class="content-box">
-									<div class="category">SEO</div>
-									<h4><a href="blog-single.html">Protect Your Workplace From Cyber Attacks</a></h4>
-									<div class="text">The basic premise of search engine reputation management in to use the greate work</div>
-									<div class="info-box">
-										<div class="clearfix">
-											<div class="pull-left">
-												<!-- Author Box -->
-												<div class="author-box">
-													<div class="box-inner">
-														<div class="author-image">
-															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
-														</div>
-														Villal Pando, <span>November 21, 2019</span>
-													</div>
-												</div>
-											</div>
-											<div class="pull-right">
-												<a href="blog-single.html" class="share"><span class="fa fa-share-alt"></span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-					
-					<div class="slide">
-					
-						<!-- News Block Three -->
-						<div class="news-block-three">
-							<div class="inner-box">
-								<div class="image">
-									<a href="blog-single.html"><img src="{{ asset('assets/images/resource/news-7.jpg')}}" alt="" /></a>
-								</div>
-								<div class="content-box">
-									<div class="category">ppc</div>
-									<h4><a href="blog-single.html">The security risks of change <br> package owners</a></h4>
-									<div class="text">The basic premise of search engine reputation management in to use the greate work</div>
-									<div class="info-box">
-										<div class="clearfix">
-											<div class="pull-left">
-												<!-- Author Box -->
-												<div class="author-box">
-													<div class="box-inner">
-														<div class="author-image">
-															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
-														</div>
-														Villal Pando, <span>November 21, 2019</span>
-													</div>
-												</div>
-											</div>
-											<div class="pull-right">
-												<a href="blog-single.html" class="share"><span class="fa fa-share-alt"></span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- News Block Three -->
-						<div class="news-block-three">
-							<div class="inner-box">
-								<div class="image">
-									<a href="blog-single.html"><img src="{{ asset('assets/images/resource/news-8.jpg')}}" alt="" /></a>
-								</div>
-								<div class="content-box">
-									<div class="category">SEO</div>
-									<h4><a href="blog-single.html">Protect Your Workplace From Cyber Attacks</a></h4>
-									<div class="text">The basic premise of search engine reputation management in to use the greate work</div>
-									<div class="info-box">
-										<div class="clearfix">
-											<div class="pull-left">
-												<!-- Author Box -->
-												<div class="author-box">
-													<div class="box-inner">
-														<div class="author-image">
-															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
-														</div>
-														Villal Pando, <span>November 21, 2019</span>
-													</div>
-												</div>
-											</div>
-											<div class="pull-right">
-												<a href="blog-single.html" class="share"><span class="fa fa-share-alt"></span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-					
+										
 				</div>
 				
 				
@@ -787,6 +622,9 @@
 			
 		</div>
 	</section>
+
+
+	
 	<!-- End News Section Two -->
 	
 	<!-- Call To Action Section -->

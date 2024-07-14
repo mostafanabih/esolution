@@ -1,145 +1,147 @@
 @extends('frontend.site.app')
-
 @section('content')
-   <!-- Start inner Page hero-->
-   <section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
-      <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
-      <div class="overlay-color" data-bg-opacity=".75"></div>
-      <div class="container">
-        <div class="hero-text-area centerd">
-          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">تواصل معنا</h1>
-          <nav aria-label="breadcrumb ">
-            <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
-              <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>الرئيسيه</a></li>
-              <li class="breadcrumb-item active">تواصل معانا</li>
-            </ul>
-          </nav>
+ 	<!--Page Title-->
+   <section class="page-title">
+		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-14.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-15.png)"></div>
+    	<div class="auto-container">
+			<h2>Contact Us</h2>
+			<ul class="page-breadcrumb">
+				<li><a href="index.html">home</a></li>
+				<li>Contact Us</li>
+			</ul>
         </div>
-      </div>
     </section>
-    <!-- End inner Page hero-->
-    <!-- Start contact-us -->
-    <section class="contact-us  mega-section  pb-0" id="contact-us">
-      <div class="container">
-        <section class="locations-section  mega-section ">
-          <div class="sec-heading centered  ">
-            <div class="content-area">
-              <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">مكاتبنا علي مستوي المملكه</h2>
-            </div>
-          </div>
-          <div class=" contact-info-panel ">
-            <div class="info-section ">
-              <div class="row">
-                <div class="col-12 col-lg-4">     
-                  <div class="info-panel  wow fadeInUp" data-wow-delay=".4s ">
-                    <h4 class="location-title">الخبر</h4>
-                    <div class="line-on-side "> </div>
-                    <p class="location-address">شارع مكه</p>
-                    <div class="location-card  "><i class="flaticon-email icon"></i>
-                      <div class="card-content">
-                        <h6 class="content-title">email:</h6><a class="email link" href="mailto:yourname@example.com">info@example.com</a>
-                      </div>
-                    </div>
-                    <div class="location-card  "><i class="flaticon-phone-call icon"></i>
-                      <div class="card-content">
-                        <h6 class="content-title">phone:</h6><a class="tel link" href="tel:0123456789">+29876543210</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4">           
-                  <div class="info-panel  wow fadeInUp" data-wow-delay=".6s">
-                    <h4 class="location-title">الاحساء</h4>
-                    <div class="line-on-side "> </div>
-                    <p class="location-address">شارع الظهران</p>
-                    <div class="location-card  "><i class="flaticon-email icon"></i>
-                      <div class="card-content">
-                        <h6 class="content-title">email:</h6><a class="email link" href="mailto:yourname@example.com">info@example.com</a>
-                      </div>
-                    </div>
-                    <div class="location-card  "><i class="flaticon-phone-call icon"></i>
-                      <div class="card-content">
-                        <h6 class="content-title">phone:</h6><a class="tel link" href="tel:0123456789">+969876543210</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="map-section  elf-section">
-          <div class="sec-heading  centered   ">
-            <div class="content-area">
-              <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">تجدنا على خرائط جوجل</h2>
-            </div>
-          </div>
-          <div class="map-box  wow fadeInUp" data-wow-delay=".6s">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe class="map-iframe" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.645907837392!2d49.59360831451876!3d25.382144683780287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49d74b98d3c04b%3A0xdd2d0f832f362a90!2sAlehsaa%2C%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1624568400000!5m2!1sen!2seg"></iframe>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="contact-us-form-section  mega-section  ">
-          <div class="row">
-            <div class="col-12 ">
-              <div class="contact-form-panel">
-                <div class="sec-heading centered    ">
-                  <div class="content-area">
-                    <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">لديك أي أسئلة؟ دعونا نجيب عليهم</h2>
-                  </div>
-                </div>
-                <div class="contact-form-inputs wow fadeInUp" data-wow-delay=".6s">
-                  <div class="custom-form-area input-boxed"> 
-                    <!--Form To have user messages-->
-                    <form class="main-form" id="contact-us-form" action="{{route('contact_us')}}" method="post"><span class="done-msg"></span>
-                       @csrf
-                      <div class="row ">
-                        <div class="col-12 col-lg-6">
-                          <div class="   input-wrapper">
-                            <input class="text-input" id="user-name" name="name" type="text">
-                            <label class="input-label" for="user-name"> الاسم <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
-                          </div>
+    <!--End Page Title-->
+	
+	<!-- Contact Page Section -->
+    <section class="contact-page-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Form Form -->
+				<div class="form-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Sec Title -->
+						<div class="sec-title">
+							<div class="title">GET IN TOUCH</div>
+							<h2>Ready to Get Started?</h2>
+						</div>
+						
+						<!-- Default Form -->
+						<div class="default-form contact-form">
+							<form method="post" action="sendemail.php" id="contact-form">
+                                <div class="form-group">
+                                    <input type="text" name="username" value="" placeholder="Name" required>
+                                </div>
+                                    
+								<div class="form-group">
+									<input type="email" name="email" value="" placeholder="Email" required>
+								</div>
+								
+								<div class="form-group">
+									<input type="text" name="subject" value="" placeholder="Subject" required>
+								</div>
+								
+								<div class="form-group">
+									<textarea name="message" placeholder="Message"></textarea>
+								</div>
+								
+								<div class="form-group">
+									<button type="submit" class="theme-btn btn-style-four"><span class="txt">Send Question</span></button>
+								</div>
+                                
+                            </form>
                         </div>
-                        <div class="col-12 col-lg-6">
-                          <div class="   input-wrapper">
-                            <input class="text-input" id="user-email" name="email" type="email">
-                            <label class="input-label" for="user-email"> البريد الالكتروني <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
-                          </div>
-                        </div>
-                        <div class="col-12 ">
-                          <div class="   input-wrapper">
-                            <input class="text-input" id="msg-subject" name="subject" type="text">
-                            <label class="input-label" for="msg-subject"> الموضوع <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
-                          </div>
-                        </div>
-                        <div class="col-12 ">
-                          <div class="   input-wrapper">
-                            <textarea class=" text-input" id="msg-text" name="message"></textarea>
-                            <label class="input-label" for="msg-text"> رسالتك <span class="req">*</span></label><span class="b-border"></span><i></i><span class="error-msg"></span>
-                          </div>
-                        </div>
-                        <div class="col-12 submit-wrapper">
-                          <button class=" btn-solid" id="submit-btn" type="submit" name="UserSubmit">ارسل رسالتك</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-    <!-- End contact-us -->
+						
+					</div>
+				</div>
+				
+				<!-- Info Column -->
+				<div class="info-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Sec Title -->
+						<div class="sec-title">
+							<div class="title">GET IN TOUCH</div>
+							<h2>Ready to Get Started?</h2>
+							<div class="text">Give us a call or drop by anytime, we endeavour to  answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</div>
+						</div>
+						
+						<!-- Info List -->
+						<ul class="info-list">
+							<li>
+								<span class="icon flaticon-placeholder-4"></span>
+								<strong>FL 33401, USA</strong>
+								576d University St, Seattle, UK
+							</li>
+							<li>
+								<span class="icon flaticon-phone-call"></span>
+								<strong>009-215-5596</strong>
+								Give us a call
+							</li>
+							<li>
+								<span class="icon flaticon-stopwatch"></span>
+								<strong>meto@mail.com</strong>
+								Get in Touch
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Page Section -->
+	
+	<!-- Map Section -->
+	<section class="map-section">
+		<!-- Map Boxed -->
+		<div class="map-boxed">
+			<!--Map Outer-->
+			<div class="map-outer">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s" allowfullscreen=""></iframe>
+			</div>
+		</div>
+	</section>
+	<!-- End Map Section -->
+	
+	<!-- Newsletter Section -->
+	<section class="newsletter-section margin-bottom">
+		<div class="auto-container">
+			<div class="inner-container">
+				
+				<div class="row clearfix">
+					
+					<!-- Title Column -->
+					<div class="title-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<span class="icon flaticon-rocket-ship"></span>
+							<h4>Subscribe for Newsletter</h4>
+							<div class="text">Grow Your Business with Our SEO Agency</div>
+						</div>
+					</div>
+					
+					<!-- Form Column -->
+					<div class="form-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<!--Emailed Form-->
+							<div class="emailed-form">
+								<form method="post" action="contact.html">
+									<div class="form-group">
+										<input type="email" name="email" value="" placeholder="Email Address" required>
+										<button type="submit" class="theme-btn">Lets Start</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Newsletter Section -->
 
-
-
-
-
-    
-    @endsection
+@endsection
