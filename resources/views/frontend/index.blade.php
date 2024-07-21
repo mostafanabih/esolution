@@ -10,16 +10,16 @@
 			<li><a href="#" class="fa fa-twitter"></a></li>
 			<li><a href="#" class="fa fa-google"></a></li>
 		</ul>
-		
+
 		<div class="pattern-layer-one" style="background-image: url({{ asset('assets/images/icons/pattern-1.png')}})"></div>
 		<div class="patern-layer-two" style="background-image: url({{ asset('assets/images/background/pattern-1.png')}})"></div>
 		<div class="pattern-layer-three" style="background-image: url({{ asset('assets/images/background/pattern-5.png')}})"></div>
 		<div class="main-slider-carousel owl-carousel owl-theme">
-            
+
             <div class="slide">
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -28,12 +28,12 @@
                                     <br> </h1>
                                 <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 								<div class="btns-box">
-									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
+									<a href="#" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
 									{{-- <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a> --}}
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -42,15 +42,15 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="slide">
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -58,12 +58,11 @@
 								<h1> إدارة مواقع التواصل الاجتماعي</h1>
                                 <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 								<div class="btns-box">
-									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Start Now</span></a>
-									<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+									<a href="#" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -72,15 +71,15 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="slide">
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -88,12 +87,11 @@
 								<h1> تصميم الهوية التجارية للشركات</h1>
                                 <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 								<div class="btns-box">
-									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Start Now</span></a>
-									<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+									<a href="#" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -102,7 +100,7 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -110,7 +108,7 @@
             <div class="slide">
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -118,12 +116,11 @@
 								<h1>   برمجة و تصميم تطبيقات الجوال</h1>
                                 <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 								<div class="btns-box">
-									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Start Now</span></a>
-									<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+									<a href="#" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -132,16 +129,16 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
-			
+
 
             <div class="slide">
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -149,12 +146,11 @@
 								<h1> برمجة وتصميم المواقع الالكترونية</h1>
                                 <div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 								<div class="btns-box">
-									<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Start Now</span></a>
-									<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+									<a href="#" class="theme-btn btn-style-one"><span class="txt">توصل معنا </span></a>
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -163,12 +159,12 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
-			
-			
+
+
 		</div>
 		<!--Waves Container-->
         <div>
@@ -188,12 +184,12 @@
         <!--Waves end-->
 	</section>
 	<!--End Banner Section-->
-	
+
 	<!-- SEO Section Three -->
     <section class="seo-section-three">
         <div class="auto-container">
             <div class="row clearfix">
-				
+
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column parallax-scene-1">
@@ -202,7 +198,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Content Column -->
 				<div class="content-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
@@ -224,53 +220,53 @@
 						</ul>
 					</div>
 				</div>
-				
+
 			</div>
         </div>
     </section>
     <!-- End SEO Section Three -->
-	
+
 	<!-- Level Section -->
     <section class="level-section">
         <div class="auto-container">
             <div class="inner-container">
-				
+
 				<div class="clearfix">
-					
+
 					<div class="pull-left">
 						<h2>
                             حلول مبتكرة لتطوير عملك
 
                         </h2>
 					</div>
-					
+
 					<div class="pull-right">
 						<div class="rocket-image">
 							<img src="{{ asset('assets/images/icons/rocket-1.png')}}" alt="" />
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- End Level Section -->
-	
+
 	<!-- Services Section Five -->
     <section class="services-section-five">
 		<div class="pattern-layer-one" style="background-image: url({{ asset('assets/images/background/service-pattern-3.png')}})"></div>
 		<div class="pattern-layer-two" style="background-image: url({{ asset('assets/images/background/service-pattern-4.png')}})"></div>
 		<div class="gradient-layer"></div>
 		<div class="auto-container">
-		
+
 			<!-- Sec Title -->
 			<div class="sec-title centered">
 				<div class="title">خدماتنا</div>
 				{{-- <div class="text">Our strategy includes consistently evolving, to ensure we’re <br> producing exceptional SEO for business.</div> --}}
 			</div>
-			
+
 			<div class="row clearfix">
-				
+
 				<!-- Service Block Five -->
 				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -284,14 +280,14 @@
 						<div class="lower-content">
 							<div class="left-pattern"></div>
 							<div class="right-pattern"></div>
-							<h4><a href="services-detail.html">صناعة المحتوى الإبداعي
+							<h4><a href="#">صناعة المحتوى الإبداعي
                             </a></h4>
 							<div class="text">نصنع أفكار استثنائية لعرض نشاطات شركائنا ونجسدها في محتوى متجدد يناسب طبيعة كل نشاط تجاري بداية من الملفات التعريفية إلى محتوى المواقع الإلكترونية ومحتوى منصات التواصل الاجتماعي.
                             </div>
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five -->
 				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -305,13 +301,13 @@
 						<div class="lower-content">
 							<div class="left-pattern"></div>
 							<div class="right-pattern"></div>
-							<h4><a href="services-detail.html">التسويق الرقمي
+							<h4><a href="#">التسويق الرقمي
                             </a></h4>
 							<div class="text">نحن شركة تسويق رقمي نقدم خدمات التسويق عبر منصات التواصل الاجتماعي المختلفة من خلال تخطيط مدروس وتحليل منهجي وتقييم مستمر لأداء الحملات، هذا بالإضافة إلى خدمة SEO التي تجعلك تتصدر محركات البحث مقابل منافسينك</div>
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five -->
 				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -325,7 +321,7 @@
 						<div class="lower-content">
 							<div class="left-pattern"></div>
 							<div class="right-pattern"></div>
-							<h4><a href="services-detail.html">تصميم المواقع والتطبيقات
+							<h4><a href="#">تصميم المواقع والتطبيقات
                             </a></h4>
 							<div class="text">شركة تسويق رقمي بفريق متخصص في تصميم واجهات المستخدم وتطوير المواقع والتطبيقات الإلكترونية والمتاجر يساعدك في بناء منظومة الكترونية شاملة و متكاملة وإخراجها بأفضل صورة ممكنة.
 
@@ -333,7 +329,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five -->
 				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -347,14 +343,14 @@
 						<div class="lower-content">
 							<div class="left-pattern"></div>
 							<div class="right-pattern"></div>
-							<h4><a href="services-detail.html">إدارة حسابات التواصل الاجتماعي
+							<h4><a href="#">إدارة حسابات التواصل الاجتماعي
                             </a></h4>
 							<div class="text">نؤسس تواجد متكامل في منصات التواصل المختلفة لشركائنا، عبر الاستخدام الأمثل لكافة الأدوات الإبداعية بداية من الخطة وكتابة المحتوى والتصميم الإبداعي والردود على المتابعين.
                             </div>
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five -->
 				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -368,14 +364,14 @@
 						<div class="lower-content">
 							<div class="left-pattern"></div>
 							<div class="right-pattern"></div>
-							<h4><a href="services-detail.html">إدارة العلامة التجارية
+							<h4><a href="#">إدارة العلامة التجارية
                             </a></h4>
 							<div class="text">نبتكر قصة العلامة التجارية من البداية، ونحدد استراتيجيتها، وشخصيتها، و نبرة صوتها وطرق ظهورها ومن ثم نقوم بتصميم الهوية البصرية بصورة متكاملة تعكس الظهور الفريد لشركائنا.
                             </div>
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five -->
 				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -389,29 +385,29 @@
 						<div class="lower-content">
 							<div class="left-pattern"></div>
 							<div class="right-pattern"></div>
-							<h4><a href="services-detail.html">التسويق عبر المؤثرين
+							<h4><a href="#">التسويق عبر المؤثرين
                             </a></h4>
 							<div class="text">نساعدك في اختيار المؤثر الأنسب للحملات التسويقية من خلال قاعدة شاملة تحتوي على الفئات المختلفة لمؤثرين منصات التواصل الاجتماعي (ميقا، ميكرو، نانو)، نبني الفكرة والسيناريو المناسب.
                             </div>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
-			
+
 			{{-- <div class="btn-box centered">
 				<a href="services.html" class="theme-btn btn-style-three"><span class="txt">View Service</span></a>
 			</div> --}}
-			
+
 		</div>
 	</section>
 	<!-- End Services Section Five -->
-	
+
 	<!-- Counter Section Three -->
 	<section class="counter-section-three">
 		<div class="auto-container">
 			<div class="row clearfix">
-				
+
 				<!-- Counter Column -->
 				<div class="counter-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
@@ -420,10 +416,10 @@
 							<h2></h2>
 							<div class="text">استمتع بتجربة استثنائية في عالم التطوير البرمجياتي مع eSolutions. نحن نقدم حلولًا متكاملة لتلبية احتياجات عملك وتحقيق أهدافك الرقمية. نضمن لك</div>
 						</div>
-						
+
 						<!-- Fact Counter -->
 						<div class="fact-counter-two style-two">
-							
+
 
                                 <ul class="seo-list" style="
                                 direction: rtl;
@@ -438,10 +434,10 @@
                                     </li>
                                 </ul>
 						</div>
-						
+
 					</div>
 				</div>
-				
+
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column parallax-scene-2">
@@ -450,12 +446,12 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
 	<!-- End Counter Section Three -->
-	
+
 	<!-- Team Section Three -->
 	<section class="team-section-three">
 		<div class="auto-container">
@@ -464,23 +460,23 @@
 				<div class="title">اكتشف سر نجاح عملك معنا!</div>
 				<div class="text">استعد لرحلة جديدة نحو التحول الرقمي، حيث يجتمع الإبداع بالتكنولوجيا لتحقيق أهدافك الاستراتيجية. اكتشف كيف يمكن لخبراء التطوير البرمجياتي تحسين أداء عملك وتعزيز وجودك الرقمي بحلول مبتكرة وفعالة. لا تفوت الفرصة، ابدأ رحلتك اليوم نحو التميز!</div>
 			</div>
-			
+
 			<div class="three-item-carousel owl-carousel owl-theme">
-				
-			
-				
+
+
+
 			</div>
-			
+
 		</div>
 		<div class="bottom-layer"></div>
 	</section>
 	<!-- End Team Section Three -->
-	
+
 	<!-- Faq's Section -->
     {{-- <section class="faq-section">
         <div class="auto-container">
             <div class="row clearfix">
-				
+
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column parallax-scene-3">
@@ -489,7 +485,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Accordian Column -->
 				<div class="accordian-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
@@ -499,7 +495,7 @@
 							<h2>Work with a Dedicated <br> SEO Company</h2>
 							<div class="text">Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors in play.</div>
 						</div>
-						
+
 						<!-- Accordian Box -->
 						<ul class="accordion-box">
 
@@ -522,7 +518,7 @@
 									</div>
 								</div>
 							</li>
-							
+
 							<!--Block-->
 							<li class="accordion block">
 								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>What is off page SEO link building?</div>
@@ -532,7 +528,7 @@
 									</div>
 								</div>
 							</li>
-							
+
 							<!--Block-->
 							<li class="accordion block">
 								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>Best SEO Practices for High Quality Content?</div>
@@ -542,17 +538,17 @@
 									</div>
 								</div>
 							</li>
-							
+
 						</ul>
-						
+
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section> --}}
 	<!-- End Faq's Section -->
-	
+
 	<!-- News Section Two -->
 	<section class="news-section-two">
 		<!-- Paroller Pattern -->
@@ -560,30 +556,28 @@
 		<div class="auto-container">
 			<!-- Sec Title -->
 			<div class="sec-title centered">
-				<div class="title">OUR BLOG</div>
+				<div class="title"> اخر الاخبار</div>
 				<h2>Our Latest Media</h2>
-				<div class="text">Our campaigns get your business in front of the right people at the <br> right time to increase organic traffic and boost engagement.</div>
 			</div>
-			
+
 			<!-- Inner Container -->
 			<div class="inner-container">
 				<!-- Pattern Layer -->
 				<div class="dotted-pattern" style="background-image:url({{ asset('assets/images/background/pattern-12.jpg')}})"></div>
 				<div class="news-carousel owl-carousel owl-theme">
-				@foreach ($news->chunk(2) as $newsChunk)
 
 					<div class="slide">
-					   @foreach ($newsChunk as $newsItem)
+
 						<!-- News Block Three -->
 						<div class="news-block-three">
 							<div class="inner-box">
 								<div class="image">
-									<a href="blog-single.html"><img src="{{asset("storage/$newsItem->image")}}" alt="" /></a>
+									<a href="#"><img src="{{ asset('assets/images/resource/news-7.jpg')}}" alt="" /></a>
 								</div>
 								<div class="content-box">
-									<div class="category">{{$newsItem->type}}</div>
-									<h4><a href="blog-single.html">{{$newsItem->name}}</a></h4>
-									<div class="text">{{ $newsItem->description}}</div>
+									<div class="category">ppc</div>
+									<h4><a href="#">The security risks of change <br> package owners</a></h4>
+									<div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
 									<div class="info-box">
 										<div class="clearfix">
 											<div class="pull-left">
@@ -591,51 +585,214 @@
 												<div class="author-box">
 													<div class="box-inner">
 														<div class="author-image">
-															<img src="{{asset("storage/$newsItem->image")}}" alt="" >
+															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
 														</div>
-														{{$newsItem->user}}, <span>{{ $newsItem->created_at->format('d M Y') }}</span>
+														Villal Pando, <span>November 21, 2023</span>
 													</div>
 												</div>
 											</div>
 											<div class="pull-right">
-												<a href="blog-single.html" class="share"><span class="fa fa-share-alt"></span></a>
+												<a href="#" class="share"><span class="fa fa-share-alt"></span></a>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					   @endforeach	
+
+						<!-- News Block Three -->
+						<div class="news-block-three">
+							<div class="inner-box">
+								<div class="image">
+									<a href="#"><img src="{{ asset('assets/images/resource/news-8.jpg')}}" alt="" /></a>
+								</div>
+								<div class="content-box">
+									<div class="category">SEO</div>
+									<h4><a href="#">Protect Your Workplace From Cyber Attacks</a></h4>
+									<div class="text">متخصصين في حلول البرمجيات المتقدمة التي تعمل بالذكاء الاصطناعي والتي تسمح للمؤسسات بتسريع التقدم والكفاءة بشكل كبير مع تقنيتها.</div>
+									<div class="info-box">
+										<div class="clearfix">
+											<div class="pull-left">
+												<!-- Author Box -->
+												<div class="author-box">
+													<div class="box-inner">
+														<div class="author-image">
+															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
+														</div>
+														Villal Pando, <span>November 21, 2019</span>
+													</div>
+												</div>
+											</div>
+											<div class="pull-right">
+												<a href="#" class="share"><span class="fa fa-share-alt"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
-					@endforeach
-					
-										
+					<div class="slide">
+
+						<!-- News Block Three -->
+						<div class="news-block-three">
+							<div class="inner-box">
+								<div class="image">
+									<a href="#"><img src="{{ asset('assets/images/resource/news-7.jpg')}}" alt="" /></a>
+								</div>
+								<div class="content-box">
+									<div class="category">ppc</div>
+									<h4><a href="#">The security risks of change <br> package owners</a></h4>
+									<div class="text">نساعدك في بناء علاقات قوية مع عملائك من خلال أنظمة دعم وإدارة العملاء الفعالة.
+                                    </div>
+									<div class="info-box">
+										<div class="clearfix">
+											<div class="pull-left">
+												<!-- Author Box -->
+												<div class="author-box">
+													<div class="box-inner">
+														<div class="author-image">
+															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
+														</div>
+														Villal Pando, <span>November 21, 2019</span>
+													</div>
+												</div>
+											</div>
+											<div class="pull-right">
+												<a href="#" class="share"><span class="fa fa-share-alt"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- News Block Three -->
+						<div class="news-block-three">
+							<div class="inner-box">
+								<div class="image">
+									<a href="#"><img src="{{ asset('assets/images/resource/news-8.jpg')}}" alt="" /></a>
+								</div>
+								<div class="content-box">
+									<div class="category">SEO</div>
+									<h4><a href="#">Protect Your Workplace From Cyber Attacks</a></h4>
+									<div class="text">The basic premise of search engine reputation management in to use the greate work</div>
+									<div class="info-box">
+										<div class="clearfix">
+											<div class="pull-left">
+												<!-- Author Box -->
+												<div class="author-box">
+													<div class="box-inner">
+														<div class="author-image">
+															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
+														</div>
+														Villal Pando, <span>November 21, 2019</span>
+													</div>
+												</div>
+											</div>
+											<div class="pull-right">
+												<a href="#" class="share"><span class="fa fa-share-alt"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="slide">
+
+						<!-- News Block Three -->
+						<div class="news-block-three">
+							<div class="inner-box">
+								<div class="image">
+									<a href="#"><img src="{{ asset('assets/images/resource/news-7.jpg')}}" alt="" /></a>
+								</div>
+								<div class="content-box">
+									<div class="category">ppc</div>
+									<h4><a href="#">The security risks of change <br> package owners</a></h4>
+									<div class="text">The basic premise of search engine reputation management in to use the greate work</div>
+									<div class="info-box">
+										<div class="clearfix">
+											<div class="pull-left">
+												<!-- Author Box -->
+												<div class="author-box">
+													<div class="box-inner">
+														<div class="author-image">
+															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
+														</div>
+														Villal Pando, <span>November 21, 2019</span>
+													</div>
+												</div>
+											</div>
+											<div class="pull-right">
+												<a href="#" class="share"><span class="fa fa-share-alt"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- News Block Three -->
+						<div class="news-block-three">
+							<div class="inner-box">
+								<div class="image">
+									<a href="#"><img src="{{ asset('assets/images/resource/news-8.jpg')}}" alt="" /></a>
+								</div>
+								<div class="content-box">
+									<div class="category">SEO</div>
+									<h4><a href="#">Protect Your Workplace From Cyber Attacks</a></h4>
+									<div class="text">The basic premise of search engine reputation management in to use the greate work</div>
+									<div class="info-box">
+										<div class="clearfix">
+											<div class="pull-left">
+												<!-- Author Box -->
+												<div class="author-box">
+													<div class="box-inner">
+														<div class="author-image">
+															<img src="{{ asset('assets/images/resource/news-author-1.jpg')}}" alt="" >
+														</div>
+														Villal Pando, <span>November 21, 2019</span>
+													</div>
+												</div>
+											</div>
+											<div class="pull-right">
+												<a href="#" class="share"><span class="fa fa-share-alt"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
 				</div>
-				
-				
+
+
 				<div class="btn-box text-center">
-					<a href="blog.html" class="theme-btn btn-style-four"><span class="txt">All News</span></a>
+					<a href="#" class="theme-btn btn-style-four"><span class="txt">عرض الجميع</span></a>
 				</div>
-				
+
 			</div>
-			
+
 		</div>
 	</section>
-
-
-	
 	<!-- End News Section Two -->
-	
+
 	<!-- Call To Action Section -->
 	<section class="call-to-action-section" style="background-image: url({{ asset('assets/images/background/map-pattern.png')}})">
 		<div class="dotted-layer" style="background-image: url({{ asset('assets/images/background/pattern-11.png')}})"></div>
-		
+
 		<div class="icon-layer" style="background-image: url({{ asset('assets/images/icons/cross-icon.png')}})"></div>
 		<div class="icon-layer-two" style="background-image: url({{ asset('assets/images/icons/icon-1.png')}})"></div>
 		<div class="icon-layer-three" style="background-image: url({{ asset('assets/images/icons/icon-2.png')}})"></div>
 		<div class="icon-layer-four" style="background-image: url({{ asset('assets/images/icons/icon-1.png')}})"></div>
-		
+
 		<div class="auto-container">
 			<div class="title">حلول مبتكرة لتطوير عملك
             </div>
@@ -647,11 +804,11 @@
 
 
             </h3>
-			<a href="about.html" class="theme-btn btn-style-three"><span class="txt">انضم لنا</span></a>
+			<a href="#" class="theme-btn btn-style-three"><span class="txt">انضم لنا</span></a>
 		</div>
 	</section>
 	<!-- End Call To Action Section -->
-	
+
 	<!-- Contact Info Section -->
 	<section class="contact-info-section margin-bottom">
 		<div class="auto-container">

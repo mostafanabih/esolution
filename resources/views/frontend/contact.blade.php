@@ -5,95 +5,92 @@
 		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-14.png)"></div>
 		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-15.png)"></div>
     	<div class="auto-container">
-			<h2>Contact Us</h2>
+			<h2>توصل معنا</h2>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
-				<li>Contact Us</li>
+				<li><a href="/">الصفحة الرئيسية</a></li>
+				<li>توصل معنا</li>
 			</ul>
         </div>
     </section>
     <!--End Page Title-->
-	
+
 	<!-- Contact Page Section -->
     <section class="contact-page-section">
 		<div class="auto-container">
 			<div class="row clearfix">
-				
+
 				<!-- Form Form -->
 				<div class="form-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<!-- Sec Title -->
 						<div class="sec-title">
-							<div class="title">GET IN TOUCH</div>
-							<h2>Ready to Get Started?</h2>
+							<div class="title">ارسل لنا رساله</div>
 						</div>
-						
+
 						<!-- Default Form -->
 						<div class="default-form contact-form">
-							<form method="post" action="sendemail.php" id="contact-form">
+							<form method="post" id="contact-form">
                                 <div class="form-group">
-                                    <input type="text" name="username" value="" placeholder="Name" required>
+                                    <input type="text" name="username" value="" placeholder="الاسم" required>
                                 </div>
-                                    
+
 								<div class="form-group">
-									<input type="email" name="email" value="" placeholder="Email" required>
+									<input type="email" name="email" value="" placeholder="البريد الاكتروني" required>
 								</div>
-								
+
 								<div class="form-group">
-									<input type="text" name="subject" value="" placeholder="Subject" required>
+									<input type="text" name="subject" value="" placeholder="الموضوع" required>
 								</div>
-								
+
 								<div class="form-group">
-									<textarea name="message" placeholder="Message"></textarea>
+									<textarea name="message" placeholder="الرساله"></textarea>
 								</div>
-								
+
 								<div class="form-group">
-									<button type="submit" class="theme-btn btn-style-four"><span class="txt">Send Question</span></button>
+									<button type="submit" class="theme-btn btn-style-four"><span class="txt">ارسال</span></button>
 								</div>
-                                
+
                             </form>
                         </div>
-						
+
 					</div>
 				</div>
-				
+
 				<!-- Info Column -->
 				<div class="info-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<!-- Sec Title -->
 						<div class="sec-title">
-							<div class="title">GET IN TOUCH</div>
-							<h2>Ready to Get Started?</h2>
-							<div class="text">Give us a call or drop by anytime, we endeavour to  answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</div>
+							<div class="title">ESolutions</div>
+							<div class="text">هي شركة رائدة في مجال التحول الرقمي والتسويق الإلكتروني. نحن نساعد الشركات على تعزيز حضورها الرقمي وزيادة كفاءتها من خلال حلول مبتكرة وتقنيات متقدمة. خدماتنا تشمل تطوير المواقع والتطبيقات، تحسين محركات البحث، وإدارة حملات التسويق الرقمي. بفضل فريقنا المتخصص وخبرتنا الواسعة، نضمن لك تحقيق نتائج مميزة ونمو مستدام في السوق الرقمي
+                            </div>
 						</div>
-						
+
 						<!-- Info List -->
 						<ul class="info-list">
 							<li>
 								<span class="icon flaticon-placeholder-4"></span>
-								<strong>FL 33401, USA</strong>
-								576d University St, Seattle, UK
-							</li>
+								<strong>المملكة العربيه السعوديه</strong>
+الرياض							</li>
 							<li>
 								<span class="icon flaticon-phone-call"></span>
-								<strong>009-215-5596</strong>
-								Give us a call
-							</li>
+								<strong>0561501409</strong>
+اتصل بنا							</li>
 							<li>
 								<span class="icon flaticon-stopwatch"></span>
-								<strong>meto@mail.com</strong>
-								Get in Touch
+								<strong> info@esolutions-tech.com</strong>
+								صندوق البريد
 							</li>
 						</ul>
-						
+
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
 	<!-- End Contact Page Section -->
-	
+
 	<!-- Map Section -->
 	<section class="map-section">
 		<!-- Map Boxed -->
@@ -105,14 +102,14 @@
 		</div>
 	</section>
 	<!-- End Map Section -->
-	
+
 	<!-- Newsletter Section -->
 	<section class="newsletter-section margin-bottom">
 		<div class="auto-container">
 			<div class="inner-container">
-				
+
 				<div class="row clearfix">
-					
+
 					<!-- Title Column -->
 					<div class="title-column col-lg-6 col-md-12 col-sm-12">
 						<div class="inner-column">
@@ -121,7 +118,7 @@
 							<div class="text">Grow Your Business with Our SEO Agency</div>
 						</div>
 					</div>
-					
+
 					<!-- Form Column -->
 					<div class="form-column col-lg-6 col-md-12 col-sm-12">
 						<div class="inner-column">
@@ -136,9 +133,9 @@
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
